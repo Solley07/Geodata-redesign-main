@@ -4351,7 +4351,10 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   line-height: 1;
 }
 .ltn__about-us-area {
-  background-image: url(/assets/img/bg/patterns.png);
+  background: url(/assets/img/g-dark-pattern.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: ;
 }
 /* ----------------------------------------------------
     Tag Cloud Widget
@@ -6677,7 +6680,10 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   -ms-transform: translateX(-100%);
   transform: translateX(-100%);
 }
-
+.ltn__utilize-mobile-menu {
+  background: url(/assets/img/g-light-pattern.jpg);
+  background-size: contain;
+}
 .ltn__utilize-menu-inner {
   position: relative;
   z-index: 9;
@@ -6778,6 +6784,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .ltn__utilize-menu > ul > li > a {
   display: block;
   padding: 8px 24px 8px 0;
+  font-family: var(--ltn__heading-font);
 }
 
 .ltn__utilize-menu > ul > li .sub-menu {
@@ -6802,7 +6809,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   position: relative;
   list-style: none;
 }
-
+.ltn__utilize-menu > ul > li > ul > li > a {
+  font-family: var(--ltn__heading-font);
+}
 .ltn__utilize-overlay {
   position: fixed;
   z-index: 9999;
