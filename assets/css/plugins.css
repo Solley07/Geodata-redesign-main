@@ -6825,6 +6825,9 @@ fieldset:disabled .btn {
 .text-body {
   color: #212529 !important;
 }
+.text-right{
+  text-align: right !important;
+}
 .text-muted {
   color: #6c757d !important;
 }

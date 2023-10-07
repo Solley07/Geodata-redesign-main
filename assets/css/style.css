@@ -63,6 +63,7 @@ font-family: 'Rajdhani', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'Titillium Web', sans-serif;
 */
+@import url("https://fonts.cdnfonts.com/css/belleza");
 @import url("https://fonts.cdnfonts.com/css/myriad-pro");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&family=Poppins:wght@400;500;600;700;800;900&display=swap");
 /*
@@ -227,15 +228,15 @@ font-family: 'Poppins', sans-serif;
     Normalize    0B2C3D
 ---------------------------------------------------- */
 :root {
-  --ltn__primary-color: red;
+  --ltn__primary-color: #3373de;
   --ltn__primary-color-2: #041113;
   /* Darken */
   --ltn__primary-color-3: #133236;
   /* Lighten */
-  --ltn__secondary-color: red;
-  --ltn__secondary-color-2: #cb3421;
+  --ltn__secondary-color: #3373de;
+  --ltn__secondary-color-2: #3373de;
   /* Darken */
-  --ltn__secondary-color-3: #fb412a;
+  --ltn__secondary-color-3: #3373de;
   /* Lighten */
   --ltn__heading-color: #000000;
   --ltn__paragraph-color: #000000;
@@ -7834,8 +7835,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .slide-brief {
   max-width: 450px;
 }
-
-.text-right .slide-brief {
+.slide-brief {
   margin-left: auto;
 }
 
@@ -10801,6 +10801,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   border-width: 0 2px 0 0;
   margin-left: auto;
 }
+.ltn__section-title-2 .text-right {
+  text-align: right !important;
+}
 .ltn__section-title-2.text-center p {
   padding: 0 0 0 30px;
   border-width: 0 0 0 2px;
@@ -13500,6 +13503,18 @@ blockquote::before {
 /* ----------------------------------------------------
     CounterUp Area
 ---------------------------------------------------- */
+.ltn__counterup-area {
+  background-image: url(/counter-bg.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
 .ltn__counterup-item {
   margin-bottom: 50px;
   text-align: center;
