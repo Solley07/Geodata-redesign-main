@@ -4033,7 +4033,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   margin-bottom: 120px;
   padding-top: 110px;
   padding-bottom: 110px;
-  background-image: url(/assets/img/bg/patterns.png);
+  background-image: url(https://storage.googleapis.com/geodata-ng/assets/img/bg/patterns.png);
 }
 
 .ltn__breadcrumb-list ul {
@@ -4352,7 +4352,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   line-height: 1;
 }
 .ltn__about-us-area {
-  background: url(/assets/img/g-dark-pattern.jpg);
+  background: url(/assets/img/bg/patterns.png);
   background-size: cover;
   background-repeat: no-repeat;
   opacity: ;
@@ -6682,7 +6682,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   transform: translateX(-100%);
 }
 .ltn__utilize-mobile-menu {
-  background: url(/assets/img/g-light-pattern.jpg);
+  background: url(https://storage.googleapis.com/geodata-ng/assets/img/g-dark-pattern.jpg);
   background-size: contain;
 }
 .ltn__utilize-menu-inner {
@@ -6786,6 +6786,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   display: block;
   padding: 8px 24px 8px 0;
   font-family: var(--ltn__heading-font);
+  color: white;
 }
 
 .ltn__utilize-menu > ul > li .sub-menu {
@@ -6812,6 +6813,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 .ltn__utilize-menu > ul > li > ul > li > a {
   font-family: var(--ltn__heading-font);
+  color: white;
 }
 .ltn__utilize-overlay {
   position: fixed;
