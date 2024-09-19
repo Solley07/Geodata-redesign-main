@@ -13506,7 +13506,6 @@ blockquote::before {
     CounterUp Area
 ---------------------------------------------------- */
 .ltn__counterup-area {
-  background-image: url(/counter-bg.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
